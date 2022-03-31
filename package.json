@@ -1,0 +1,14 @@
+{
+  "name": "picshare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "elm-live src/Picshare.elm -- --debug --output picshare.js",
+    "compile" : "elm make src/Picshare.elm --output picshare.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
